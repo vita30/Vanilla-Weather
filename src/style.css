@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+h1 {
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  color: gray;
+  list-style: none;
+  line-height: 20px;
+  text-align: left;
+  margin-left: 25px;
+}
+.appContainer {
+  border: 2px solid gray;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 30px auto;
+  max-width: 600px;
+  max-height: 500px;
+}
+.tempDigit {
+  font-size: 70px;
+}
+.units {
+  position: relative;
+  font-size: 20px;
+  top: -36px;
+}
+.card {
+  border: solid 2px gray;
+  border-radius: 30px;
+  text-align: center;
+}
+.card p {
+  margin-bottom: 2px;
+}
+.card-body {
+  padding: 10px;
+}
+#digit {
+  margin-top: 10px;
+}
+#weather {
+  font-size: 20px;
+  text-align: left;
+  margin-left: 0;
+}
+#weather::first-letter {
+  text-transform: capitalize;
+}
+.active {
+  color: black;
+  cursor: default;
+}
+.active:hover {
+  text-decoration: none;
+  color: black;
+}
+#temperature {
+  color: black;
+  font-size: 70px;
+  line-height: 1;
+  font-weight: 400;
+}
+#author {
+  position: relative;
+  top: -25px;
+}
+.temperature-day-min {
+  opacity: 0.5;
+}
+.image {
+  display: block;
+  margin: 0 auto;
+}
